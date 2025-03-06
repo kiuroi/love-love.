@@ -1,3 +1,4 @@
-document.getElementById('toggleButton').addEventListener('click', function() {
-    document.getElementById('card').classList.toggle('flipped');
-});
+document.getElementById('openButton').addEventListener('click', function() {
+    document.getElementById('envelopeFlap').classList.toggle('open');
+    setTimeout(() => {
+        document.querySelector
